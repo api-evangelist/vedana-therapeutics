@@ -1,23 +1,83 @@
 aid: vedana-therapeutics
 name: Vedana Therapeutics
-description: Vedana Therapeutics is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Vedana Therapeutics is a clinical-stage biotechnology company developing
+  next-generation medicines for migraine prevention. Founded by biotech investor
+  Anurag Agarwal and antibody-development veteran Leon Garcia, the company emerged
+  from stealth in June 2026 with a $46 million Series A co-led by Westlake
+  BioPartners and Canaan Partners, with participation from Dawn Biopharma and
+  Alexandria Venture Investments. Vedana is building a portfolio of long-acting,
+  subcutaneously dosed monoclonal antibodies that go beyond CGRP by targeting
+  PACAP (pituitary adenylate cyclase-activating peptide) and other CGRP-independent
+  pathways, aiming to deliver complete and lasting relief for the majority of
+  migraine patients who remain suboptimally controlled on current standard of
+  care. Its preclinical pipeline includes VDN-0100 (anti-PACAP antibody, first-in-human
+  planned 2027), VDN-0200 (PACAP x CGRP bispecific), and two undisclosed programs.
+  This profile was surfaced as a portfolio company of Canaan Partners and added to
+  the API Evangelist network. Vedana is a therapeutics company and publishes no
+  public API or developer surface; this record captures its corporate identity for
+  discovery.
 url: https://raw.githubusercontent.com/api-evangelist/vedana-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - canaan-partners
+- westlake-biopartners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://vedanatx.com/wp-content/themes/vedana-thera/images/favicon/apple-touch-icon.png
 tags:
 - Company
+- Biotechnology
+- Therapeutics
+- Pharmaceuticals
+- Neuroscience
+- Migraine
+- Antibodies
+- Drug Discovery
+- Life Sciences
+- Healthcare
 apis: []
+common:
+- type: Website
+  url: https://vedanatx.com/
+- type: About
+  url: https://vedanatx.com/science/
+- type: Team
+  url: https://vedanatx.com/leadership/
+- type: Blog
+  url: https://vedanatx.com/news/
+- type: Support
+  url: https://vedanatx.com/contact/
+- type: PrivacyPolicy
+  url: https://vedanatx.com/privacy-statement/
+- type: Accessibility
+  url: https://vedanatx.com/accessibility-statement/
+- type: LLMsTxt
+  url: llms/vedana-therapeutics-llms.txt
+- type: DomainSecurity
+  url: security/vedana-therapeutics-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
